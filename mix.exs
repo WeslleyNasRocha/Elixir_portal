@@ -13,7 +13,8 @@ defmodule Portal.MixProject do
       name: "Portal",
       docs: [
         main: "Portal",
-        extras: ["README.md"]
+        extras: ["README.md"],
+        output: "docs"
       ]
     ]
   end
